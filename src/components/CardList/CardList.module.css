@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 50px
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.addInput {
+    height: 30px;
+    width: 200px; 
+    border: 1px solid #2780d4;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 10px;
+    color: #2780d4;
+}
+
+.addButton {
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #2780d4;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

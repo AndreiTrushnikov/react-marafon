@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../HeaderBlock/img/background.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.footerLink {
+    font-size: 1rem;
+    color: rgb(15, 92, 136);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    box-shadow: 0 0 5px 0 #fff;
+    transition: 0.3s;
+}
+
+.footerLink:hover {
+    font-size: 1.05rem;
+    background-color: rgba(255,255,255,0.7);
+    transition: 0.3s;
+}
